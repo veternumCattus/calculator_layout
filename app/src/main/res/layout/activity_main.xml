@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:columnCount="4"
+    android:padding="10dp"
+    tools:context=".MainActivity">
+
+    <TableRow >
+
+        <EditText
+            android:id="@+id/input_screen"
+            android:layout_margin="3dp"
+            android:layout_span="4"
+            android:background="@color/teal_200"
+            android:padding="10dp"
+            android:textSize="20dp"
+            tools:text="1 2 3 4 5 6 input" />
+
+    </TableRow>
+
+    <TableRow>
+
+
+        <EditText
+            android:id="@+id/output_screen"
+            android:layout_margin="3dp"
+            android:layout_span="4"
+            android:background="@color/teal_200"
+            android:padding="10dp"
+            android:textAlignment="viewEnd"
+            android:textSize="20dp"
+            tools:text="1 2 3 4 5 6 output" />
+
+    </TableRow>
+
+    <TableRow>
+        <GridLayout android:columnCount="4">
+
+            <Button
+                android:id="@+id/button_num_1"
+                android:text="1" />
+
+            <Button
+                android:id="@+id/button_num_2"
+                android:text="2" />
+
+            <Button
+                android:id="@+id/button_num_3"
+                android:text="3" />
+
+            <Button
+                android:id="@+id/button_plus"
+                android:text="+" />
+
+            <Button
+                android:id="@+id/button_num_4"
+                android:text="4" />
+
+            <Button
+                android:id="@+id/button_num_5"
+                android:text="5" />
+
+            <Button
+                android:id="@+id/button_num_6"
+                android:text="6" />
+
+            <Button
+                android:id="@+id/button_minus"
+                android:text="-" />
+
+            <Button
+                android:id="@+id/button_num_7"
+                android:text="7" />
+
+            <Button
+                android:id="@+id/button_num_8"
+                android:text="8" />
+
+            <Button
+                android:id="@+id/button_num_9"
+                android:text="9" />
+
+            <Button
+                android:id="@+id/button_multiply"
+                android:text="*" />
+
+            <Button
+                android:id="@+id/button_floating_point"
+                android:text="," />
+
+            <Button
+                android:id="@+id/button_num_zero"
+                android:text="0" />
+
+            <Button
+                android:id="@+id/button_plus_minus"
+                android:text="+/-" />
+
+            <Button
+                android:id="@+id/button_divide"
+                android:text="/" />
+        </GridLayout>
+    </TableRow>
+
+    <TableRow>
+        <Button
+            android:id="@+id/button_equals"
+            android:text="="
+            />
+    </TableRow>
+
+</TableLayout>
